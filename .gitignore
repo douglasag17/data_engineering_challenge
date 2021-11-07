@@ -125,3 +125,4 @@ dmypy.json
 .pyre/
 202110_Flink DATA - Engineering challenge.pdf
 202110_flink_data_engieering_sample_data (1).json
+.vscode/settings.json
