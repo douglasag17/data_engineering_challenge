@@ -51,3 +51,6 @@ class ETL:
         # log initiating load of the data to the DB
         self.loader.load(df)
         # log the ETL executed succesfully
+
+        print(df.head(5))
+        print("finished!")

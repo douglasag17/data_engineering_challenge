@@ -31,6 +31,7 @@ class Reader:
                 convert_dates=True,
                 keep_default_dates=True,
                 encoding="utf-8",
+                orient=str,
             )
             # log the file was read successfully
 

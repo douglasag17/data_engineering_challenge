@@ -33,4 +33,16 @@ This object is in charge of logging everything that happens when this module run
 
 The importance of these logs is pretty high since could be used to keep track of everything that happens when the module is executed. This data could be analyzed later on to understand the behavior of the system.
 
-##
+## How to run with Docker
+- Add into the code/etl/ a folder called data
+- Add a sample file to the folder called data.json
+- Move to the root folder
+- A main file was added to showcase how the module developed works
+- Run the following command 
+        
+        docker-compose up
+- Result
+  - ![alt text](/images/result_postgres.jpg)
+
+## TODOs
+- Configure an .env file for the environment variables that the docker-compose file use
