@@ -46,3 +46,4 @@ The importance of these logs is pretty high since could be used to keep track of
 
 ## TODOs
 - Configure an .env file for the environment variables that the docker-compose file use
+- Implement Logger
